@@ -1,38 +1,94 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: rgb(255, 255, 255);
+  background-color: #593989;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 40px;
+
+}
+
+h1 {
+  color: #593989;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
+  font-weight: 500;
+  margin: 20px;
+  font-family: 'Croissant One', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.aplicacion-tareas {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: -10px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo {
+  width: 400px;
+}
+
+.tarea-lista-principal {
+
+  width: 600px;
+  min-height: 500px;
+  background-color: #00a0ea;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 12px 10px 11px 0px #000000;
+}
+
+.tar {
+  width: 200px;
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+
+
+
+
+
+  .logo {
+    width: 370px;
+
   }
-  to {
-    transform: rotate(360deg);
+
+  .tarea-lista-principal {
+
+    width: 350px;
+    min-height: 500px;
+    background-color: #00a0ea;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 12px 10px 11px 0px #000000;
   }
+
 }
